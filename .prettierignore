@@ -1,0 +1,28 @@
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+**/*.html
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+
+/.vscode
+/node_modules
+./dist
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+*.env
+.env.*
